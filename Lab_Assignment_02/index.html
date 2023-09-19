@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Welcome to my website!</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+
+                font-size: 20px;
+                
+            }
+
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0; 
+                overflow: hidden;
+                /*background-color:coral;*/
+            }
+            li{
+                float: right;
+
+            }
+            #fatherDiv{
+                width: 100vw;
+                height: 800px;
+                overflow: hidden;
+            }
+            #homeWord01{
+                float: left;
+                height: 500px;
+                width: 40vw;
+                padding-top: 200px;
+                padding-left: 10vw;
+                font-size: 75px;
+                color: indigo;
+                font-weight: bold;
+                
+               
+            }
+            #homeWord02{
+                font-size: 15px;
+                font-weight:normal;
+            }
+            #homePic01{
+                float: left;
+                height: 500px;
+                width: 40vw;
+                padding-top: 250px;
+                padding-left: 10vw;
+                font-size: 75px;
+                color: indigo;
+                font-weight: bold;
+                
+               
+            }
+            #icon{
+                float: left;
+                padding-left: 50px;
+            }
+            #button1{
+                text-decoration: none;
+                background-color:darkmagenta;
+                font-size: 20px;
+                font-weight: normal;
+                color: white;
+                padding: 15px 15px;
+                border-radius: 8px;
+            }
+            #button2{
+
+                background-color:transparent;
+                font-size: 10px;
+                font-weight: normal;
+                color: darkmagenta;
+
+            }
+            li a{
+                text-decoration: none;
+                font-size: 20px;
+                font-weight: bold;
+                color:indigo;
+                padding: 10px 15px;
+                display:block;
+                
+                
+            }
+            li a:hover{
+                background-color:gainsboro;
+/*                border-radius: 8px;*/
+            }
+            
+            footer{
+                background-color: indigo;
+                color: whitesmoke;
+                
+            }
+            footer ul{
+                display: flex;
+/*                align-items: center;*/
+            }
+            footer ul li a {
+                padding-left: 20vw;
+                color: white;
+                text-decoration: none;
+                font-size: 10px;
+                font-weight: normal;
+                
+                
+            }
+            footer ul li a:hover{
+                background-color: transparent;
+            }
+            #Home{
+                background-color: darkmagenta;
+                border-radius: 8px;
+                color: white;
+            }
+
+
+            
+        </style>
+    </head>
+    
+    <body>
+        <p><img border="0" alt="UIicon" id="icon" src="UIicon.png" width="140" height="48"></p>
+        <ul>
+            <li><a href="contact.html" id="Contact">Contact</a></li>
+            <li><a href="portfolio.html" id="Portfolio">Portfolio</a></li>
+            <li><a href="about.html" id="About">About</a></li>
+            <li><a href="index.html" id="Home">Home</a></li>
+
+        </ul>
+        <div id="fatherDiv">
+           <div id="homeWord01">This is
+               <br>a lab2 page<br>
+            <span id="homeWord02">And I'm trying to make a portfolio website</span>
+            <br>
+            <a href="signin.html" id="button1">Sign in</a>
+            <a href="signup.html" id="button2">Sign up</a>
+            </div>
+            
+            <div id="homePic01">
+                <img border="0" alt="profile" src="profile.svg" width="300" height="300">
+            </div>
+         
+        </div>
+        
+        <footer>
+            <ul>
+                <li><a href="terms.html">Terms and Conditions</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="cookie.html">Cookie Policy</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
